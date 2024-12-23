@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sticky Navbar Example</title>
+  <style>
+    
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    
+    .navbar {
+      background-color: #333;
+      overflow: hidden;
+      position: -webkit-sticky; /* For Safari */
+      position: sticky;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    .navbar a:hover {
+      background-color: #ddd;
+      color: rgb(130, 26, 90);
+    }
+
+    
+    .content {
+      padding: 20px;
+      height: 2000px; 
+    }
+
+   
+    .content p {
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+ 
+  <div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  
+  <div class="content">
+    <h1>Welcome guys!!</h1>
+    <p>This is a simple webpage.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ut, sapiente enim ipsam nesciunt, iusto provident dolore recusandae quisquam velit dicta minus voluptas libero ea autem facere dolores expedita dolorum alias nostrum voluptatem in ducimus earum. Deserunt qui aut distinctio! Rem deserunt vel, porro eaque rerum officia veritatis expedita commodi quis voluptas debitis, doloremque nam incidunt laboriosam enim delectus ea libero! Placeat est fuga fugit facere eligendi! Libero nulla ipsa nostrum expedita minus non, a possimus cupiditate nam, officia rerum harum quae id incidunt perspiciatis eaque architecto accusamus enim ex! Sed fugiat fugit laboriosam optio dolorem architecto, quasi esse doloremque?</p>
+  </div>
+
+</body>
+</html>
